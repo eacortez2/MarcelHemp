@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  
+    <title>Women's store - Marcel Hemp</title>
+
+	<meta name="description" content="The Official Website for Marcel Hemp - Women's Clothing Line" />
+	<meta name="keywords" content="marcel, hemp, clothing, santa barbara, women's, cloths, organic" />
+
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+      
+    <!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="bjqs.css">
+
+
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<!-- <script type="text/javascript">
+
+			$(document).ready(function() {
+		    $(window).load(function() {
+		         $('#loader').hide();
+		         $('#pagecontent').show();
+			 $('body').hide().fadeIn(700);
+		    });
+		});
+
+			</script> -->
+
+			<link rel="stylesheet" href="css/basic.css" type="text/css" />
+			<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
+			<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+			<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+			<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+			<!-- We only want the thunbnails to display when javascript is disabled -->
+			<script type="text/javascript">
+				document.write('<style>.noscript { display: none; }</style>');
+			</script>
+
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					// We only want these styles applied when javascript is enabled
+					$('div.navigation').css({'width' : '300px', 'float' : 'left'});
+					$('div.content').css('display', 'block');
+
+					// Initially set opacity on thumbs and add
+					// additional styling for hover effect on thumbs
+					var onMouseOutOpacity = 0.67;
+					$('#thumbs ul.thumbs li').opacityrollover({
+						mouseOutOpacity:   onMouseOutOpacity,
+						mouseOverOpacity:  1.0,
+						fadeSpeed:         'fast',
+						exemptionSelector: '.selected'
+					});
+
+					// Initialize Advanced Galleriffic Gallery
+					var gallery = $('#thumbs').galleriffic({
+						delay:                     2500,
+						numThumbs:                 15,
+						preloadAhead:              10,
+						enableTopPager:            false,
+						enableBottomPager:         false,
+						maxPagesToShow:            7,
+						imageContainerSel:         '#slideshow',
+						controlsContainerSel:      '#controls',
+						captionContainerSel:       '#caption',
+						loadingContainerSel:       '#loading',
+						renderSSControls:          true,
+						renderNavControls:         true,
+						playLinkText:              'Play Slideshow',
+						pauseLinkText:             'Pause Slideshow',
+						prevLinkText:              '&lsaquo; Previous Photo',
+						nextLinkText:              'Next Photo &rsaquo;',
+						nextPageLinkText:          'Next &rsaquo;',
+						prevPageLinkText:          '&lsaquo; Prev',
+						enableHistory:             false,
+						autoStart:                 false,
+						syncTransitions:           true,
+						defaultTransitionDuration: 900,
+						onSlideChange:             function(prevIndex, nextIndex) {
+							// 'this' refers to the gallery, which is an extension of $('#thumbs')
+							this.find('ul.thumbs').children()
+								.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+								.eq(nextIndex).fadeTo('fast', 1.0);
+						},
+						onPageTransitionOut:       function(callback) {
+							this.fadeTo('fast', 0.0, callback);
+						},
+						onPageTransitionIn:        function() {
+							this.fadeTo('fast', 1.0);
+						}
+					});
+				});
+			</script>
+      
+  <link rel="stylesheet" href="style2.css">
+
+  </head>
+
+  
+  <body>
+	
+	<div id=logo2>
+	<a href="index.html">
+	<image src="img/logo2.png">	
+	</a>
+	</div>
+	
+	<div class="menu-wrapper">
+		
+	<ul id="menu">
+		
+		<li>
+			<a href="store.html"><image src="img/store.png"><p class="menu-link">Store</p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="about.html"><image src="img/about.png"><p class="menu-link">About</p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="culture.html"><image src="img/culture.png"><p 		 	class="menu-link">Culture</p>
+			</a>
+		</li>
+		
+	</ul>
+	
+	</div>
+	
+	<!-- <div id='loader'>
+	<image src="img/loader.gif">
+	</div>
+	<div id='pagecontent' style='display:none'> -->
+
+<div class="outwrapper">
+	
+	<div class="inwrapper">
+	
+		<h1>
+		Women's Clothing 	
+		</h1>
+
+		<!-- Start Advanced Gallery Html Containers -->
+		<div id="gallery" class="content">
+			<div class="slideshow-container">
+				<div id="loading" class="loader"></div>
+				<div id="slideshow" class="slideshow"></div>
+			</div>
+			<div id="caption" class="caption-container"></div>
+		</div>
+		
+		
+		<div id="thumbs" class="navigation">
+			
+			<span class="product-text">
+			Dresses / Tops	
+			</span>
+			
+			<ul class="thumbs noscript">
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/1.jpg">
+						<img src="img/products/women/small/1.jpg" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Blue Dress</h1>
+						
+						<a href="#" class="buy">
+						$20 
+						</a>
+						
+						<div class="image-desc">This one of a kind dress line comes in one size with several colors and contrasting stitching. 55% hemp, 45% organic cotton</div>
+						
+					</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/5.jpg">
+						<img src="img/products/women/small/5.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title"> Tank</h1>
+						
+						<a href="#" class="buy">
+						$20 
+						</a>
+						
+						<div class="image-desc">This sleeveless T-top comes in one size with several eye-catching colors and contrasting stitching.  55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/6.jpg">
+						<img src="img/products/women/small/6.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Long Tank</h1>
+						
+						<a href="#" class="buy">
+						$20 
+						</a>
+						
+						<div class="image-desc">This longer version of our tank top comes in one size with several eye-catching colors and contrasting stitching.  55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/8.jpg">
+						<img src="img/products/women/small/8.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Long T-Shirt</h1>
+						
+						<a href="#" class="buy">
+						$30 
+						</a>
+						
+						<div class="image-desc">This long sleeve T-top comes in one size with several eye-catching colors and contrasting stitching. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/9.jpg">
+						<img src="img/products/women/small/9.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Short Cut T-Shirt</h1>
+						
+						<a href="#" class="buy">
+						$30 
+						</a>
+						
+						<div class="image-desc">This short sleeve T-top comes in one size with several eye-catching colors and contrasting stitching. 55% hemp, 45% organic cotton</div>
+
+				
+			</ul>
+			
+			<span class="product-text">
+			Shorts / Skirts / Pants	
+			</span>
+			
+			<ul class="thumbs noscript">
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/2.jpg">
+						<img src="img/products/women/small/2.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Linen Pants</h1>
+						
+						<a href="#" class="buy">
+						$35 
+						</a>
+						
+						<div class="image-desc">These one of-a-kind linen pants are made in Santa Barbara. These are soft and very durable with a drawstring and low rise design. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/3.jpg">
+						<img src="img/products/women/small/3.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Shorts</h1>
+						
+						<a href="#" class="buy">
+						$35 
+						</a>
+						
+						<div class="image-desc">These shorts are the comfiest ones you'll own. They come in one size with a drawstring for a comfortable fit.  55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/7.jpg">
+						<img src="img/products/women/small/7.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Woven Pants</h1>
+						
+						<a href="#" class="buy">
+						$40 
+						</a>
+						
+						<div class="image-desc">These pants have a breathable stretches yet holds its shape. They are preshrunk in several colors. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/women/large/4.jpg">
+						<img src="img/products/women/small/4.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Knee Length Skirt</h1>
+						
+						<a href="#" class="buy">
+						$25 
+						</a>
+						
+						<div class="image-desc">This line of skirt is comfortable with stylish knit fabric that is preshrunk and machine washable. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+			</ul>
+			
+		</div>
+		<div style="clear: both;"></div>
+	
+	
+	</div>
+</div>
+		
+	
+</div>
+
+</div>
+
+<div id="copywrite">
+	<image src="img/copywrite.png">
+</div>
+
+<!-- </div> -->
+
+  </body>
+</html>

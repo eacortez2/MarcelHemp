@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  
+    <title>Men's store - Marcel Hemp</title>
+
+	<meta name="description" content="The Official Website for Marcel Hemp - Men's Clothing Line" />
+	<meta name="keywords" content="marcel, hemp, clothing, santa barbara, men's, tshirt, short, guys" />
+
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+      
+    <!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="bjqs.css">
+
+
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<!-- <script type="text/javascript">
+
+			$(document).ready(function() {
+		    $(window).load(function() {
+		         $('#loader').hide();
+		         $('#pagecontent').show();
+			 $('body').hide().fadeIn(700);
+		    });
+		});
+
+			</script> -->
+
+			<link rel="stylesheet" href="css/basic.css" type="text/css" />
+			<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
+			<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+			<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+			<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+			<!-- We only want the thunbnails to display when javascript is disabled -->
+			<script type="text/javascript">
+				document.write('<style>.noscript { display: none; }</style>');
+			</script>
+
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					// We only want these styles applied when javascript is enabled
+					$('div.navigation').css({'width' : '300px', 'float' : 'left'});
+					$('div.content').css('display', 'block');
+
+					// Initially set opacity on thumbs and add
+					// additional styling for hover effect on thumbs
+					var onMouseOutOpacity = 0.67;
+					$('#thumbs ul.thumbs li').opacityrollover({
+						mouseOutOpacity:   onMouseOutOpacity,
+						mouseOverOpacity:  1.0,
+						fadeSpeed:         'fast',
+						exemptionSelector: '.selected'
+					});
+
+					// Initialize Advanced Galleriffic Gallery
+					var gallery = $('#thumbs').galleriffic({
+						delay:                     2500,
+						numThumbs:                 15,
+						preloadAhead:              10,
+						enableTopPager:            false,
+						enableBottomPager:         false,
+						maxPagesToShow:            7,
+						imageContainerSel:         '#slideshow',
+						controlsContainerSel:      '#controls',
+						captionContainerSel:       '#caption',
+						loadingContainerSel:       '#loading',
+						renderSSControls:          true,
+						renderNavControls:         true,
+						playLinkText:              'Play Slideshow',
+						pauseLinkText:             'Pause Slideshow',
+						prevLinkText:              '&lsaquo; Previous Photo',
+						nextLinkText:              'Next Photo &rsaquo;',
+						nextPageLinkText:          'Next &rsaquo;',
+						prevPageLinkText:          '&lsaquo; Prev',
+						enableHistory:             false,
+						autoStart:                 false,
+						syncTransitions:           true,
+						defaultTransitionDuration: 900,
+						onSlideChange:             function(prevIndex, nextIndex) {
+							// 'this' refers to the gallery, which is an extension of $('#thumbs')
+							this.find('ul.thumbs').children()
+								.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+								.eq(nextIndex).fadeTo('fast', 1.0);
+						},
+						onPageTransitionOut:       function(callback) {
+							this.fadeTo('fast', 0.0, callback);
+						},
+						onPageTransitionIn:        function() {
+							this.fadeTo('fast', 1.0);
+						}
+					});
+				});
+			</script>
+      
+  <link rel="stylesheet" href="style2.css">
+
+  </head>
+
+  
+  <body>
+	
+	<div id=logo2>
+	<a href="index.html">
+	<image src="img/logo2.png">	
+	</a>
+	</div>
+	
+	<div class="menu-wrapper">
+		
+	<ul id="menu">
+		
+		<li>
+			<a href="store.html"><image src="img/store.png"><p class="menu-link">Store</p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="about.html"><image src="img/about.png"><p class="menu-link">About</p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="culture.html"><image src="img/culture.png"><p 		 	class="menu-link">Culture</p>
+			</a>
+		</li>
+		
+	</ul>
+	
+	</div>
+	
+	<!-- <div id='loader'>
+	<image src="img/loader.gif">
+	</div>
+	<div id='pagecontent' style='display:none'> -->
+
+<div class="outwrapper">
+	
+	<div class="inwrapper">
+	
+		<h1>
+		Men's Clothing 	
+		</h1>
+
+		<!-- Start Advanced Gallery Html Containers -->
+		<div id="gallery" class="content">
+			<div class="slideshow-container">
+				<div id="loading" class="loader"></div>
+				<div id="slideshow" class="slideshow"></div>
+			</div>
+			<div id="caption" class="caption-container"></div>
+		</div>
+		
+		
+		<div id="thumbs" class="navigation">
+			
+			<span class="product-text">
+			Shirts 	
+			</span>
+			
+			<ul class="thumbs noscript">
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/men/large/1.jpg">
+						<img src="img/products/men/small/1.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Brown Shirt</h1>
+						
+						<a href="#" class="buy">
+						$40 
+						</a>
+						
+						<div class="image-desc">This short-sleeved button up is designed with an "island-style" cut that is perfect for a night out on the town. 
+                      55% hemp, 45% organic cotton</div>
+						
+					</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/men/large/2.jpg">
+						<img src="img/products/men/small/2.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Brown Hoodie</h1>
+						
+						<a href="#" class="buy">
+						$60 
+						</a>
+						
+						<div class="image-desc">Our ever-popular hemp hoodie is one hefty beast! The hemp outer shell is sure to keep you warm on those cooler Santa Barbara summer nights, while that fleece interior is extra soft to the skin. Preshrunk. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/men/large/3.jpg">
+						<img src="img/products/men/small/3.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Long Sleeved Shirt</h1>
+						
+						<a href="#" class="buy">
+						$45 
+						</a>
+						
+						<div class="image-desc">This long sleeved shirt is sure to please with a loose fit that is designed to give you a bit more breathing room. Contructed with a quality knit, this tee is both soft and durable. Preshrunk. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/men/large/4.jpg">
+						<img src="img/products/men/small/4.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">T-Shirt</h1>
+						
+						<a href="#" class="buy">
+						$30 
+						</a>
+						
+						<div class="image-desc">A t-shirt with a loose fit that is designed to give you a bit more breathing room. Contructed with a quality knit, this tee is both soft and durable. Preshrunk. 55% hemp, 45% organic cotton</div>
+				</li>
+
+				
+			</ul>
+			
+			<span class="product-text">
+			Pants 	
+			</span>
+			
+			<ul class="thumbs noscript">
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/men/large/5.jpg">
+						<img src="img/products/men/small/5.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Woven Pants</h1>
+						
+						<a href="#" class="buy">
+						$35 
+						</a>
+						
+						<div class="image-desc">Our woven mens pant is designed for maximum style and comfort. Their constucted with a light-weight and highly breathable weave, complete with a draw string to allow for a more perfect, adjustable fit. The best part is that these pants will soften gradually as you wash. 45% hemp, 55% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/men/large/6.jpg">
+						<img src="img/products/men/small/6.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Light Colored pants</h1>
+						
+						<a href="#" class="buy">
+						$35 
+						</a>
+						
+						<div class="image-desc">These canvas-style cargo shorts have remained a staple in our stores due to their popularity. Features plenty of utility and comfort. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/men/large/7.jpg">
+						<img src="img/products/men/small/7.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Black Shorts</h1>
+						
+						<a href="#" class="buy">
+						$40 
+						</a>
+						
+						<div class="image-desc">These canvas-style cargo shorts have remained a staple in our stores due to their popularity. Features plenty of utility and comfort. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/men/large/8.jpg">
+						<img src="img/products/men/small/8.jpg" alt="Title #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Khaki Pants</h1>
+						
+						<a href="#" class="buy">
+						$45 
+						</a>
+						
+						<div class="image-desc">Very comfortable and great for those more relaxed days around Santa Barbara. These khaki pants have a heavyweight construction with a fleece interior for more warmth. Made with a drawstring waistband. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+			</ul>
+			
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+		
+	
+</div>
+
+</div>
+
+<div id="copywrite">
+	<image src="img/copywrite.png">
+</div>
+
+<!-- </div> -->
+
+  </body>
+</html>

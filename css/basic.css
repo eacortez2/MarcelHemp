@@ -1,0 +1,96 @@
+
+body{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+	background-color: #eee;
+	color: #444;
+	font-size: 75%;
+}
+p, li {
+	line-height: 1.8em;
+}
+h2 {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	margin: 0 0 10px 0;
+	letter-spacing:-1px;
+}
+
+h2 {
+	padding-top: 10px;
+	font-size:2em;
+}
+pre {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	overflow-x: auto;
+}
+div#page {
+	width: 900px;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: left;
+	border-color: #ddd;
+	border-style: none solid solid;
+	border-width: medium 1px 1px;
+}
+div#container {
+	padding: 20px;
+}
+div#ads {
+	clear: both;
+	padding: 12px 0 12px 66px;
+}
+div#footer {
+	clear: both;
+	color: #777;
+	margin: 0 auto;
+	padding: 20px 0 40px;
+	text-align: center;
+}
+
+.product-text {
+	display:block;
+	float:left;
+	width:100%;
+	text-align:left;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-family: helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.image-title {
+	margin:15px 0px 10px 10px !important;
+	float:left;
+	width:75%;
+}
+
+.buy {
+	display:block;
+	text-decoration:none;
+	float:right;
+	width: 50px;
+	padding: 8px 40px 8px 8px;
+	color:white !important;
+	margin:15px 10px 0 0;
+	font-size:18px;
+	font-weight:bold;
+	border-radius:8px;
+	background:#24a5cc url(../img/shoppingcart.png) no-repeat;
+	background-position:right center;
+	transition: 0.35s all ease-out;
+}
+
+.buy:hover {
+	text-decoration:none;
+	background:#5ec3e2 url(../img/shoppingcart.png) no-repeat;
+	background-position:right center;
+	transition: 0.35s all ease-out;
+}
+
+.back a{
+	text-decoration:none;
+	float:left;
+	width:100%;
+}

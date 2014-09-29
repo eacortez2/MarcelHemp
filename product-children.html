@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  
+    <title>Children's store - Marcel Hemp</title>
+
+	<meta name="description" content="The Official Website for Marcel Hemp - Children's Clothing Line" />
+	<meta name="keywords" content="marcel, hemp, clothing, santa barbara, children's, clothes, t-shirt, kids" />
+
+	<link rel="icon" type="image/png" href="img/favicon.png" />
+      
+    <!-- bjqs.css contains the *essential* css needed for the slider to work -->
+    <link rel="stylesheet" href="bjqs.css">
+
+
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<!-- <script type="text/javascript">
+
+			$(document).ready(function() {
+		    $(window).load(function() {
+		         $('#loader').hide();
+		         $('#pagecontent').show();
+			 $('body').hide().fadeIn(700);
+		    });
+		});
+
+			</script> -->
+
+			<link rel="stylesheet" href="css/basic.css" type="text/css" />
+			<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
+			<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+			<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+			<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+			<!-- We only want the thunbnails to display when javascript is disabled -->
+			<script type="text/javascript">
+				document.write('<style>.noscript { display: none; }</style>');
+			</script>
+
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					// We only want these styles applied when javascript is enabled
+					$('div.navigation').css({'width' : '300px', 'float' : 'left'});
+					$('div.content').css('display', 'block');
+
+					// Initially set opacity on thumbs and add
+					// additional styling for hover effect on thumbs
+					var onMouseOutOpacity = 0.67;
+					$('#thumbs ul.thumbs li').opacityrollover({
+						mouseOutOpacity:   onMouseOutOpacity,
+						mouseOverOpacity:  1.0,
+						fadeSpeed:         'fast',
+						exemptionSelector: '.selected'
+					});
+
+					// Initialize Advanced Galleriffic Gallery
+					var gallery = $('#thumbs').galleriffic({
+						delay:                     2500,
+						numThumbs:                 15,
+						preloadAhead:              10,
+						enableTopPager:            false,
+						enableBottomPager:         false,
+						maxPagesToShow:            7,
+						imageContainerSel:         '#slideshow',
+						controlsContainerSel:      '#controls',
+						captionContainerSel:       '#caption',
+						loadingContainerSel:       '#loading',
+						renderSSControls:          true,
+						renderNavControls:         true,
+						playLinkText:              'Play Slideshow',
+						pauseLinkText:             'Pause Slideshow',
+						prevLinkText:              '&lsaquo; Previous Photo',
+						nextLinkText:              'Next Photo &rsaquo;',
+						nextPageLinkText:          'Next &rsaquo;',
+						prevPageLinkText:          '&lsaquo; Prev',
+						enableHistory:             false,
+						autoStart:                 false,
+						syncTransitions:           true,
+						defaultTransitionDuration: 900,
+						onSlideChange:             function(prevIndex, nextIndex) {
+							// 'this' refers to the gallery, which is an extension of $('#thumbs')
+							this.find('ul.thumbs').children()
+								.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+								.eq(nextIndex).fadeTo('fast', 1.0);
+						},
+						onPageTransitionOut:       function(callback) {
+							this.fadeTo('fast', 0.0, callback);
+						},
+						onPageTransitionIn:        function() {
+							this.fadeTo('fast', 1.0);
+						}
+					});
+				});
+			</script>
+      
+  <link rel="stylesheet" href="style2.css">
+
+  </head>
+
+  
+  <body>
+	
+	<div id=logo2>
+	<a href="index.html">
+	<image src="img/logo2.png">	
+	</a>
+	</div>
+	
+	<div class="menu-wrapper">
+		
+	<ul id="menu">
+		
+		<li>
+			<a href="store.html"><image src="img/store.png"><p class="menu-link">Store</p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="about.html"><image src="img/about.png"><p class="menu-link">About</p>
+			</a>
+		</li>
+		
+		<li>
+			<a href="culture.html"><image src="img/culture.png"><p 		 	class="menu-link">Culture</p>
+			</a>
+		</li>
+		
+	</ul>
+	
+	</div>
+	
+	<!-- <div id='loader'>
+	<image src="img/loader.gif">
+	</div>
+	<div id='pagecontent' style='display:none'> -->
+
+<div class="outwrapper">
+	
+	<div class="inwrapper">
+	
+		<h1>
+		Children's Clothing 	
+		</h1>
+
+		<!-- Start Advanced Gallery Html Containers -->
+		<div id="gallery" class="content">
+			<div class="slideshow-container">
+				<div id="loading" class="loader"></div>
+				<div id="slideshow" class="slideshow"></div>
+			</div>
+			<div id="caption" class="caption-container"></div>
+		</div>
+		
+		
+		<div id="thumbs" class="navigation">
+			
+			<span class="product-text">
+			Current Selection</span>
+			
+			<ul class="thumbs noscript">
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/children/large/child_t_shirt.jpg">
+						<img src="img/products/children/small/child_t_shirt.jpg" alt="child_tee #0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Children's T-Shirt</h1>
+						
+						<a href="#" class="buy">
+						$17 
+						</a>
+						
+						<div class="image-desc">This oversized short sleeved T-shirt allows comfortable movement and is preshrunk. It comes in several sizes and colors. 55% hemp, 45% organic cotton</div>
+						
+					</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/children/large/child_t_long.jpg">
+						<img src="img/products/children/small/child_t_long.jpg" alt="Children's Long" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Children's Long-Sleeved Shirt</h1>
+						
+						<a href="#" class="buy">
+						$22 
+						</a>
+						
+						<div class="image-desc">This oversized long sleeved T-shirt allows comfortable movement and is preshrunk. It comes in several sizes and colors. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				<li>
+					<a class="thumb" name="leaf" href="img/products/children/large/child_hoodie.jpg">
+						<img src="img/products/children/small/child_hoodie.jpg" alt="Children's Hoodie#0" />
+					</a>
+					<div class="caption">
+					
+						<h1 class="image-title">Children's Hoodie</h1>
+						
+						<a href="#" class="buy">
+						$35 
+						</a>
+						
+						<div class="image-desc">This long sleeved hoodie is the child-size version of our ever popular adult men's hoodie. It allows comfortable movement and is preshrunk. It comes in several sizes and colors. 55% hemp, 45% organic cotton</div>
+				</li>
+				
+				
+			</ul>
+			
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+		
+	
+</div>
+
+</div>
+
+<div id="copywrite">
+	<image src="img/copywrite.png">
+</div>
+
+<!-- </div> -->
+
+  </body>
+</html>

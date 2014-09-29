@@ -1,0 +1,147 @@
+body{
+	font-family: "Open Sans", helvetica, arial;
+	padding:0;
+	overflow:hidden;
+}
+
+#slider {
+position:fixed;
+width:100%;
+height:100%;
+}
+
+#container{
+	padding:0;
+	margin:-10px 0 -10px -10px;
+	height:100%;
+	width:100%;
+}
+
+.logo {
+background:url(img/logo.png) no-repeat center center fixed;
+position:fixed;
+width:100%;
+height:100%;
+z-index:9;
+-webkit-animation-name: firstani;
+-webkit-animation-duration: 2s;
+}
+
+.one, .two, .three {
+background:url(img/banner01.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.two {
+background:url(img/banner02.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.three {
+background:url(img/banner03.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#copywrite {
+	position:absolute;
+	z-index:999;
+	width:100%;
+	text-align:center;
+	bottom: 15px;
+}
+
+#menu {
+	position:relative;
+	z-index:999;
+	padding:0;
+	margin:0 auto;
+	width: 300px;
+}
+
+#menu li {
+	display:block;
+	float:left;
+	margin-left:25px;
+	text-align:center;
+	margin-top:15px;
+}
+
+#menu li a {
+	opacity: 1.0;
+	-webkit-transition:0.4s ease-in-out all;
+	-moz-transition:0.4s ease-in-out all;
+	-o-transition:0.4s ease-in-out all;
+	transition:0.4s ease-in-out all;
+
+}
+
+#menu li a:hover {
+	opacity: 0.75;
+	-webkit-transition:0.4s ease-in-out all;
+	-moz-transition:0.4s ease-in-out all;
+	-o-transition:0.4s ease-in-out all;
+	transition:0.4s ease-in-out all;
+}
+
+#menu li p {
+	margin: 15px;
+	text-align:center;
+	text-decoration:none;
+}
+
+.menu-link {
+	text-decoration:none;
+	color:white;
+	font-family:Helvetica, Arial, Sans-serif;
+	font-weight:100;
+	opacity:0;
+	font-size:16px !important;
+	text-shadow:1px 1px 1px rgba(0,0,0,1);
+	-webkit-transition:0.3s ease-in-out all;
+	-moz-transition:0.3s ease-in-out all;
+	-o-transition:0.3s ease-in-out all;
+	transition:0.3s ease-in-out all;
+}
+
+#menu li:hover .menu-link {
+	opacity:1;
+	margin-top: -2px;
+	-webkit-transition:0.3s ease-in-out all;
+	-moz-transition:0.3s ease-in-out all;
+	-o-transition:0.3s ease-in-out all;
+	transition:0.3s ease-in-out all;
+}
+
+#menu a {
+	text-decoration:none;	
+}
+
+@-webkit-keyframes firstani
+{
+from {opacity:0;}
+to {opacity:1;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
